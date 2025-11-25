@@ -1,0 +1,46 @@
+.butns
+{
+    float: right;
+}
+.mat-form-field
+  {
+    width: 100%;
+    padding-right: 30px; 
+  }
+
+  .matrequest{
+    width: 35% !important;
+    padding: 0px !important; 
+    
+  }
+  .card-content{
+    padding: 30px;
+  }
+  .mat-radio-button
+  {
+    margin-right: 15px;
+  }
+  .butns-grp
+  {
+    margin-right: 15px;
+  }
+
+.full-width {
+  width: 100%;
+}
+ 
+mat-form-field {
+  width: 100%;
+}
+ 
+ @media (min-width: 320px) and (max-width: 599px) {
+  .card-content{
+    padding: 30px 0px;
+  }
+  .mat-form-field{
+    padding-right: 10px;
+  }
+  .upload-div-sty{
+    height: 90px;
+  }
+}

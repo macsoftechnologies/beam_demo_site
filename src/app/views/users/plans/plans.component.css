@@ -1,0 +1,105 @@
+.mat-form-field
+  {
+    width: 100%;
+    padding-right: 70px; 
+  }
+  h3{
+    padding: 30px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .top-header-sty
+  {
+    height: 70px;
+    background-color: #dfe7eb;
+  }
+  .top-bar-sty{
+    width: 215px;
+  }
+  .material-icons{
+    font-size: 55px !important;
+    /* padding-top: 18px; */
+  }
+.top-bar-title{
+  font-weight: bold;
+    font-size: 17px;
+   
+}
+.card-content{
+  margin: 30px;
+}
+/* .download_btn_sty
+{
+  float: right;
+} */
+.icons-sty
+{
+    font-size: 15px !important;
+    cursor: pointer;
+}
+
+.full-width {
+  width: 100%;
+}
+ 
+mat-form-field {
+  width: 100%;
+}
+ 
+ @media (min-width: 320px) and (max-width: 599px) {
+  .card-content{
+    padding: 30px 0px;
+    margin: 20px !important;
+  }
+  .mat-form-field{
+    padding-right: 10px;
+  }
+  .upload-div-sty{
+    height: 90px;
+  }
+  .mat-card {
+    padding: 0px !important;
+  }
+   ngx-datatable /deep/ .datatable-footer {
+    height: 76px !important;
+    font-size: 12px !important;
+    padding-top: 18px !important;
+  }
+ 
+  ngx-datatable /deep/ .datatable-footer .page-count {
+    font-weight: bold;
+    color: #000;
+    font-size: 12px !important;
+    padding: 0px !important;
+    margin-left: 15px !important;
+  }
+ 
+  ngx-datatable /deep/ .datatable-footer .pager {
+    padding: 4px !important;
+  }
+    ::ng-deep .ngx-datatable.material .datatable-footer .datatable-pager a {
+  min-width: 20px !important;
+  padding: 0 2px !important;
+  margin: 6px 0px !important;
+  font-weight: bold;
+  color: #000;
+}
+}
+ 
+ 
+@media (max-width: 1024px) {
+    ::ng-deep .ngx-datatable.material .datatable-footer .datatable-pager a {
+  min-width: 20px !important;
+  padding: 0 2px !important;
+  margin: 6px 0px !important;
+  color: #000;
+  font-weight: bold;
+}
+ngx-datatable /deep/ .datatable-footer .page-count {
+    font-size: 10px !important;
+    padding: 0px !important;
+    margin-left: 10px !important;
+    color: #000;
+    font-weight: bold;
+  }
+}
