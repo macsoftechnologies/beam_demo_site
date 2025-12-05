@@ -35,42 +35,42 @@ loadingZones: Set<string> = new Set();
   ngOnInit(): void {
     let selectedBlockData = this.data.selectFloorBlocks.find(item => (item.planType == this.data.floor.planType) && (item.floorName == this.data.floor.name))
     console.log(selectedBlockData, "selectedBlockData")
-    if (this.data.floor.name == 'Building1 Ground Floor Zones' && this.data.floor.planType == 'B1 Ground Floor') {
+if (this.data.floor.name == 'Building1 Ground Floor Zones' && this.data.floor.planType == 'B1 Ground Floor') {
 
       this.floorBlock = [
         {
           value: 'BEDROOM 1',
-          className: "zone-1-1-ba",
+          className: "zone-1-0-ba-1",
           isSelected: false
         },
         {
           value: 'BEDROOM 2',
-          className: "zone-2-1-ba",
+          className: "zone-1-0-ba-2",
           isSelected: false
         },
         {
           value: 'Kitchen',
-          className: "zone-3-1-ba",
+          className: "zone-1-0-ba-3",
           isSelected: false
         },
         {
           value: 'Lobby',
-          className: "zone-4-1-ba",
+          className: "zone-1-0-ba-4",
           isSelected: false
         },
         {
           value: 'BATH',
-          className: "zone-5-1-ba",
+          className: "zone-1-0-ba-5",
           isSelected: false
         },
         {
           value: 'WC',
-          className: "zone-6-1-ba",
+          className: "zone-1-0-ba-6",
           isSelected: false
         },
         {
           value: 'Drawing Area',
-          className: "zone-7-1-ba",
+          className: "zone-1-0-ba-7",
           isSelected: false
         },
       ]
@@ -81,38 +81,37 @@ loadingZones: Set<string> = new Set();
         }
       }
     }
-
     else if (this.data.floor.name == 'Building1 First Floor Zones' && this.data.floor.planType == 'B1 First Floor') {
 
       this.floorBlock = [
         {
           value: 'BEDROOM',
-          className: "zone-1-2-ba",
+          className: "zone-1-1-ba-1",
           isSelected: false
         },
         {
           value: 'KIDS BEDROOM',
-          className: "zone-2-2-ba",
+          className: "zone-1-1-ba-2",
           isSelected: false
         },
         {
           value: 'TOILET',
-          className: "zone-3-2-ba",
+          className: "zone-1-1-ba-3",
           isSelected: false
         },
         {
           value: 'DINING HALL',
-          className: "zone-4-2-ba",
+          className: "zone-1-1-ba-4",
           isSelected: false
         },
         {
           value: 'KITCHEN',
-          className: "zone-5-2-ba",
+          className: "zone-1-1-ba-5",
           isSelected: false
         },
         {
           value: 'LIVING',
-          className: "zone-6-2-ba",
+          className: "zone-1-1-ba-6",
           isSelected: false
         },
       ]
@@ -123,57 +122,56 @@ loadingZones: Set<string> = new Set();
         }
       }
     }
-
     else if (this.data.floor.name == 'Building2 Ground Floor Zones' && this.data.floor.planType == 'B2 Ground Floor') {
       this.floorBlock = [
         {
           value: 'WIR 1',
-          className: "zone-1-1-ba2",
+          className: "zone-2-0-ba-1",
           isSelected: false
         },
         {
           value: 'SITTING',
-          className: "zone-2-1-ba2",
+          className: "zone-2-0-ba-2",
           isSelected: false
         },
         {
           value: 'VOID',
-          className: "zone-3-1-ba2",
+          className: "zone-2-0-ba-3",
           isSelected: false
         },
         {
           value: 'WIR 2',
-          className: "zone-4-1-ba2",
+          className: "zone-2-0-ba-4",
           isSelected: false
         },
         {
           value: 'RESORT SUITE',
-          className: "zone-5-1-ba2",
+          className: "zone-2-0-ba-5",
           isSelected: false
         },
         {
           value: 'BED 4',
-          className: "zone-6-1-ba2",
+          className: "zone-2-0-ba-6",
           isSelected: false
         },
         {
           value: 'REAR BALCONY',
-          className: "zone-7-1-ba2",
+          className: "zone-2-0-ba-7",
           isSelected: false
         },
         {
           value: 'BED 2',
-          className: "zone-8-1-ba2",
+          className: "zone-2-0-ba-8",
           isSelected: false
         },
         {
           value: 'BED 3',
-          className: "zone-9-1-ba2",
+          className: "zone-2-0-ba-9",
           isSelected: false
         },
         {
           value: 'FRONT BALCONY',
-          className: "zone-10-1-ba2",
+          className: "zone-2-0-ba-10",
           isSelected: false
         },
       ]
@@ -184,52 +182,51 @@ loadingZones: Set<string> = new Set();
         }
       }
     }
-
-     else if (this.data.floor.name == 'Building2 First Floor Zones' && this.data.floor.planType == 'B2 First Floor') {
+    else if (this.data.floor.name == 'Building2 First Floor Zones' && this.data.floor.planType == 'B2 First Floor') {
       this.floorBlock = [
         {
           value: 'FAMILY ROOM',
-          className: "zone-1-2-ba2",
+          className: "zone-2-1-ba-1",
           isSelected: false
         },
         {
           value: 'DINING AREA',
-          className: "zone-2-2-ba2",
+          className: "zone-2-1-ba-2",
           isSelected: false
         },
         {
           value: 'KITCHEN',
-          className: "zone-3-2-ba2",
+          className: "zone-2-1-ba-3",
           isSelected: false
         },
         {
-          value: 'CAR GARAGE',
-          className: "zone-4-2-ba2",
+          value: '2-CAR GARAGE',
+          className: "zone-2-1-ba-4",
           isSelected: false
         },
         {
-          value: 'STAIRS',
-          className: "zone-5-2-ba2",
+          value: 'MFG.FIREPLACE',
+          className: "zone-2-1-ba-5",
           isSelected: false
         },
         {
-          value: 'BATHROOM',
-          className: "zone-6-2-ba2",
+          value: 'LAV',
+          className: "zone-2-1-ba-6",
           isSelected: false
         },
         {
           value: 'LAUNDRY',
-          className: "zone-7-2-ba2",
+          className: "zone-2-1-ba-7",
           isSelected: false
         },
         {
           value: 'DEN',
-          className: "zone-8-2-ba2",
+          className: "zone-2-1-ba-8",
           isSelected: false
         },
         {
           value: 'COVERED PORCH',
-          className: "zone-9-2-ba2",
+          className: "zone-2-1-ba-9",
           isSelected: false
         },
       ]
